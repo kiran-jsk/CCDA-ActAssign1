@@ -1,8 +1,56 @@
-# macOS system file
+# -------------------------------
+# OS-specific files
+# -------------------------------
 .DS_Store
+Thumbs.db
 
-# Claude editor / config files
+# -------------------------------
+# Editors / IDEs
+# -------------------------------
+.idea/
+.vscode/
+*.iml
+
+# -------------------------------
+# Claude editor/config
+# -------------------------------
 .claude/
 
-# IntelliJ IDEA project settings
-.idea/
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# -------------------------------
+# Node.js
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# -------------------------------
+# Logs & Runtime
+# -------------------------------
+*.log
+*.out
+*.pid
+
+# -------------------------------
+# Other
+# -------------------------------
+coverage/
+.cache/
