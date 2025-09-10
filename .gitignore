@@ -1,0 +1,8 @@
+# macOS system file
+.DS_Store
+
+# Claude editor / config files
+.claude/
+
+# IntelliJ IDEA project settings
+.idea/
